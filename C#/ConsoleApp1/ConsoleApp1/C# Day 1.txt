@@ -1,0 +1,65 @@
+Category of types:
+1.Built in types
+   signed types: +/-
+   unsigned types: 
+2.User defined types
+
+Another categorization of C# types:
+
+1.Value type
+2.Reference type
+
+Value type vs Reference type
+1. Value type will directly hold the value while the reference type will hold the memory address or reference for this value.
+2.Value types are stored in stack memory and reference types are stored in heap memory.
+3.Value type will not be collected by garbage collector but reference type will be collected by the garbage collector. 
+4.The value types can be created by struct, enum while reference type can be created by class, interface, delegate or array.
+5.Value type can no accept any null values while reference types can accept null values. 
+
+CLR: Common Language Runtime
+
+Heap memory is divided into generation 0, 1 and 2. 
+
+Two parts in heap memory:
+1.Managed Heap
+2.Unmanaged heap: call Dispose() method from IDisposable interface
+
+String is immutable in C#. If you want to modify a string, go with a StringBuilder. Stringbuilder represnets a mutable string. 
+
+Enum is used when the value is known, small and specific. 
+
+Method in C#:
+[Access Modifier] Return_type MethodName([Formal Parameters){
+
+}
+
+Access Modifiers:
+Public: members can be accessed anywhere
+Private: members can be accessed only in a current class
+Protected: members can be accessed within the current class and in children classes. 
+Internal: members can be accessed in current assembly
+
+Modes of parameter passing:
+1. Pass by value: copy of the actual parameter is created and passed to the formal parameter; default mode
+2. Pass by reference: the reference of the actual parameter will be passed to the formal parameters, so any change in formal parameter will also reflect in actual parameter
+3.Optional Parameters: they allow you to define default values for method parameters
+4.Out mode: when you to return more than one value from a single method, use out mode
+5. Params: parameters of same type but with variable length
+
+Class Counter{
+     void Increment( ref int counter){
+        counter++;
+     }
+}
+
+Boxing: converts value type to reference type
+Unboxing: converts reference type to value type
+
+int i = 10;
+object o  = i; //boxing
+int j = (int)o; //unboxing 
+
+
+ref vs out
+1. we have to initalize the value first for ref; we do not need to necesarily initalize the value first for out mode
+2. Both of them are pass by reference since both of them will change the actual value of the variable.
