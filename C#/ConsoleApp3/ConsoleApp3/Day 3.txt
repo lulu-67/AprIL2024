@@ -1,0 +1,96 @@
+Object type is the base type for all other types in C#
+
+Reasons not to use object as input parameter type:
+
+1.Loose type safety
+2.unwanted boxing 
+
+Generics: allows us to design classes or methods but defer the specification of types until the class or method is declared or called. 
+
+Use Case of Generics:
+
+Interface: 
+
+1. Interface is a collection of methods which are by default abstract and public and will be implemented by the derived classes. 
+2. One class can implement multiple interfaces. 
+3. Interface cannot be instantiated. 
+4. Interface is helpful in writing loosely coupled code. 
+
+Abstract class vs Interface:
+
+1. Abstract class will provide a base class to its subclasses; is a wise choice when we have a clear class hierarchy'
+Interface will define common behaviors or functionalities that can be implemented by any class
+
+2.One class can only inherit from one abstract or concrete class but one class can implement multiple interfaces
+
+IRepository: Common CRUD
+ICustomerRepository: GetCustomerByEmail, GetCustomerByCity
+CustomerRepository: IRepository, ICustomerRepository
+
+3. Methods in abstract class can be abstract method or non-abstract method. For methods in an interface, they are all public and abstract by default. 
+
+SOLID Principles
+
+S: Single Responsibility Principle : a class should only have one reason to change; one class will only be responsible to do one thing
+
+Frontend: web pages to interact with users
+Backend:
+
+1.Controller/Web layer: handle request/response, validation, security check
+2.Service layer/ Business layer: business logic
+3. Data layer/Repository layer: talk to the database
+4. other classes:
+--utility class: convert data types
+--helper class: conclude funtionalities like factory
+--entity class: ORM
+--Constants
+
+O: Open/closed principle:  software entities like classes, modules, functions should be open for extension but closed for modification
+-- use extension methods or inheritance
+
+L: Liskov Substitution Principle: derived classes should be substitutable for their base types
+
+I: Interface Segregation Principle: clients should not be forced to depend on the interfaces they do not use
+
+CustomerRepository, ProductRepository
+Common: GetById, GetAll, Create, Update, Delete
+GetByCategory, GetByEmail
+
+One way:
+Single Interface IRepository: GetById, GetAll, Create, Update, Delete, GetByCategory, GetByEmail
+
+Another way:
+IRepository: GetById, GetAll, Create, Update, Delete
+ICustomerRepository: GetByEmail
+IProductRepository: GetByCategory
+
+CustomerRepository: IRepository, ICustomerRepository
+ProductRepository: IRepository, ICustomerRepository
+
+D: Dependency Inversion Principle: depend on abstractions instead of concrete classes, helps to achieve loosley coupled code,
+ going to implement it with the help of dependency injection 
+
+Collections:
+
+1.Non-generic collection: take objects, one collection can contain different types of elements
+2. Generic collection: specify the type 
+
+Advantages of generic collection:
+
+1. Type safety
+2. Better Performance 
+3. Flexibility
+4. Maintainability
+
+
+
+
+
+
+
+
+
+
+
+
+
