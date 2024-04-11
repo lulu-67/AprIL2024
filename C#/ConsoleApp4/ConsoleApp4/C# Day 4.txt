@@ -1,0 +1,46 @@
+Delegate: Delegate is a type safe function pointer that takes function or method as the parameter. 
+
+Built in delegates:
+
+Action: It will take functions that have generic input but returns void as output parameter as a parameter. 
+Predicate: It will take functions that have generic input and returns a boolean value as a an output parameter as a parameter. 
+Func: It will take functions that will take generic input and returns a generic type as output parameter as a parameter. 
+
+Anonymous method: a method without a name and it allows us to create a method on the fly. 
+Anonymous type
+var
+
+Exception Handling: they are runtime errors, are catched by try, catach and finally blocks
+
+System.Exception class
+       --SystemException
+             ---OutOfMemoryException
+             --StackOverflowException
+             --ArgumentException
+                   --ArgumentNullException
+                   --ArgumentOutOfRangeException
+             --ArithmeticException
+                    --DivideByZero
+                    --OverFlow
+
+Finally block make sure we clean up everything and will be executed no matter we have an exception or not. 
+
+Managed Heap: managed by the garbage collector 
+UnManaged Heap: files, database connections, call Dispose() method of IDisposable interface in finally block 
+
+Finally block:
+1. Call Dispose() method from IDisposable interface to clean up the resources from unmanaged heap
+2. Rollback transactions
+
+try{
+//start a transaction
+//commit
+}
+catch( Exception ex){
+    //handle exception
+}
+finally{
+if(xx){
+//rollback transaction
+}
+}
