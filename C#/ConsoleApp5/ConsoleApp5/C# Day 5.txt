@@ -1,0 +1,53 @@
+Recap:
+
+1. Generics
+2. Delegate
+3. Extension Methods
+
+LINQ: is a sql like syntax to help us talk to different data source
+
+Data Providers using LINQ:
+1.LINQ to Objects: in-memory data sources like list, array, etc; the return type is going to be IEnumerable
+2.LINQ to Datasets: work with Ado.net
+3.LINQ to SQL: talk to sql server database --the return type is IQueryable
+4.LINQ to entities: talk to other sql db, Entity framework as orm-- the return type is IQueryable
+
+in memory data sources: data stored temporarily in our application --> IEnumerable
+out of memory data sources: IQueryable
+
+LINQ is also bunch of built in extension methods that provides multiple query expression on IEnumerable<T> interface. 
+
+Select a single record:
+1.First or FirstOrDefault
+2.Single or SingleOrDefault
+
+First: Return the first record when there is one or more matching value found and if no matching record got found, it will throw an exception
+FirstOrDefault: Return the first record when there is one or more matching values found, if no matching record got found then it will assign a 
+default value; null if not specified
+Single: it will return the matched single record, but if we cannot find any matching record, it will throw an exception. If we have more than
+one matching record, it will also throw an exception
+SingleOrDefault: It wil return the matched single record, but if no matching record is found, it will assign a defualt value. if more than one 
+record found, it will also throw an exception.
+
+Quantifier operator: 
+
+Any(): checks if any one of the elements satisfy the condition, if so will return true otherwise will return false
+All(): checks if all the element satisfies the condition, if so will return true otherwise will return false
+
+Inner Join: 
+
+var result = from c in Customers join o in Orders on c.CustomerID 
+equals o.CustomerID
+select new {c.CustomerID, c.ContactName, o.OrderDate}; 
+
+
+Left Join:
+var result = from c in Customers join o in Orders on c.CustomerID 
+equals o.CustomerID 
+into customerOrders 
+//store it into a temporary collection
+from co in customerOrders.DefaultIfEmpty()
+select new {c.CustomerID, c.ContactName, 
+co.OrderDate};
+
+
