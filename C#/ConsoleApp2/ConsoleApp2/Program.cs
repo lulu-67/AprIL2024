@@ -1,7 +1,7 @@
 ﻿// // See https://aka.ms/new-console-template for more information
 //
 //
-// using ConsoleApp2;
+using ConsoleApp2;
 // // c.CustomerName = "Smith";
 // // Console.WriteLine(c.CustomerName);
 //
@@ -21,11 +21,10 @@
 // // Console.WriteLine(addition.AddNumbers(1, 2, 3));
 //
 // Addition.AddNumbers(1, 2, 3);
-//
-// int a = 3;
-// Console.WriteLine(a.EvenOrOdd());
 
-using ConsoleApp2;
+int a = 3;
+Console.WriteLine(a.EvenOrOdd());
+
 
 EmployeeRepository employeeRepository = new EmployeeRepository();
 employeeRepository.CreateEmployee(new FullTimeEmployee(1));

@@ -14,16 +14,14 @@ public class ManageEmployee
 
         private void SelectDemo()
         {
-            //Select * from Employee
             
-            //query syntax
-            // var result = from employee in _employeeRepository.GetEmployees()
-            //     select employee;
-
-            // foreach (var employee in result)
-            // {
-            //     Console.WriteLine(employee.Id + "\t" + employee.FullName + "\t" + employee.Age + "\t" + employee.Department + "\t" + employee.Salary);
-            // }
+             // var result = from employee in _employeeRepository.GetEmployees()
+             //     select employee;
+             //
+             // foreach (var employee in result)
+             // {
+             //     Console.WriteLine(employee.Id + "\t" + employee.FullName + "\t" + employee.Age + "\t" + employee.Department + "\t" + employee.Salary);
+             // }
             
         //method syntax
 
@@ -92,24 +90,24 @@ public class ManageEmployee
             //single, singleOrDefault, first, firstOrDefault
             //method syntax
 
-            // var result = _employeeRepository.GetEmployees().Select(employee => new
-            // {
-            //     Id = employee.Id,
-            //     FullName = employee.FullName,
-            //     Department = employee.Department
-            // }).FirstOrDefault(x => x.Department == "Marketing") ?? new {Id= -1, FullName= "N/A", Department = "N/A"};
-            //
-            // Console.WriteLine(result.Id + "\t" + result.Department+ "\t" + result.FullName);
-
-
             var result = _employeeRepository.GetEmployees().Select(employee => new
             {
                 Id = employee.Id,
                 FullName = employee.FullName,
                 Department = employee.Department
-            }).SingleOrDefault(x => x.Department == "SDFJDSJF")?? new{Id= -1, FullName= "N/A", Department = "N/A"};
+            }).FirstOrDefault(x => x.Department == "Marketing") ?? new {Id= -1, FullName= "N/A", Department = "N/A"};
             
             Console.WriteLine(result.Id + "\t" + result.Department+ "\t" + result.FullName);
+
+
+            // var result = _employeeRepository.GetEmployees().Select(employee => new
+            // {
+            //     Id = employee.Id,
+            //     FullName = employee.FullName,
+            //     Department = employee.Department
+            // }).SingleOrDefault(x => x.Department == "SDFJDSJF")?? new{Id= -1, FullName= "N/A", Department = "N/A"};
+            //
+            //Console.WriteLine(result.Id + "\t" + result.Department+ "\t" + result.FullName);
         }
 
         private void OrderByDemo()
@@ -230,6 +228,6 @@ public class ManageEmployee
 
         public void Run()
         {
-           AggregationDemo();
+           SelectDemo();
         }
 }

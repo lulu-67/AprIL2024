@@ -14,33 +14,6 @@ public class EmployeeRepository : IRepository<Employee>
         new Employee() {Id=6, FullName="Fiona", City="Sterling", Department="IT",Salary=7500 }
     };
 
-    // public List<Employee> GetByCity(string city)
-    // {
-    //     List<Employee> result = new List<Employee>();
-    //     foreach (var employee in employees)
-    //     {
-    //         if (employee.City == city)
-    //         {
-    //             result.Add(employee);
-    //         }
-    //     }
-    //
-    //     return result;
-    // }
-    //
-    // public List<Employee> GetByDepartment(string department)
-    // {
-    //     List<Employee> result = new List<Employee>();
-    //     foreach (var employee in employees)
-    //     {
-    //         if (employee.Department == department)
-    //         {
-    //             result.Add(employee);
-    //         }
-    //     }
-    //     return result;
-    // }
-    
     public List<Employee> Search(Func<Employee, bool> Condition)
     {
         List<Employee> result = new List<Employee>();

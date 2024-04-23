@@ -41,8 +41,8 @@ Backend:
 3. Data layer/Repository layer: talk to the database
 4. other classes:
 --utility class: convert data types
---helper class: conclude funtionalities like factory
---entity class: ORM
+--helper class: conclude functionalities like factory
+--entity class: ORM object relational mapping
 --Constants
 
 O: Open/closed principle:  software entities like classes, modules, functions should be open for extension but closed for modification

@@ -20,23 +20,10 @@ public class PreDefinedDelegates
     {
         //Action<int> fib = new Action<int>(Fibonacci);
         //fib(10);
-
-        // Action<int> fib = delegate(int length)
-        // {
-        //     int a = 0, b = 1, c = 0;
-        //     for (int i = 0; i < length; i++)
-        //     {
-        //         Console.WriteLine(a + "");
-        //         c = a + b;
-        //         a = b;
-        //         b = c;
-        //     }
-        // };
-        // fib(10);
         
-        //Lambda expression =>
+        
 
-        Action<int> fib = length =>
+        Action<int> fib = delegate(int length)
         {
             int a = 0, b = 1, c = 0;
             for (int i = 0; i < length; i++)
@@ -48,6 +35,21 @@ public class PreDefinedDelegates
             }
         };
         fib(10);
+        
+        //Lambda expression =>
+
+        // Action<int> fib = length =>
+        // {
+        //     int a = 0, b = 1, c = 0;
+        //     for (int i = 0; i < length; i++)
+        //     {
+        //         Console.WriteLine(a + "");
+        //         c = a + b;
+        //         a = b;
+        //         b = c;
+        //     }
+        // };
+        // fib(10);
     }
 
     public void PredicateDemo()

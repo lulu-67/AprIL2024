@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f3ebcd23-986e-42cf-9ec5-46219b54a282" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/bin/Debug/net8.0/ConsoleApp5.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp2/ConsoleApp2.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp2/ConsoleApp2.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp3/ConsoleApp3/Day 3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp3/ConsoleApp3/Day 3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp3/ConsoleApp3/obj/ConsoleApp3.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp3/ConsoleApp3/obj/ConsoleApp3.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp3/ConsoleApp3/obj/ConsoleApp3.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp3/ConsoleApp3/obj/ConsoleApp3.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp3/ConsoleApp3/obj/Debug/net8.0/ConsoleApp3.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp3/ConsoleApp3/obj/Debug/net8.0/ConsoleApp3.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp3/ConsoleApp3/obj/Debug/net8.0/ConsoleApp3.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp3/ConsoleApp3/obj/Debug/net8.0/ConsoleApp3.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp3/ConsoleApp3/obj/Debug/net8.0/ConsoleApp3.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp3/ConsoleApp3/obj/Debug/net8.0/ConsoleApp3.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp3/ConsoleApp3/obj/Debug/net8.0/ConsoleApp3.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp3/ConsoleApp3/obj/Debug/net8.0/ConsoleApp3.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp3/ConsoleApp3/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp3/ConsoleApp3/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp3/ConsoleApp3/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp3/ConsoleApp3/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp3/ConsoleApp3/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp3/ConsoleApp3/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp3/ConsoleApp3/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp3/ConsoleApp3/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/bin/Debug/net8.0/ConsoleApp5.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/bin/Debug/net8.0/ConsoleApp5.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/bin/Debug/net8.0/ConsoleApp5.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/bin/Debug/net8.0/ConsoleApp5.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/ConsoleApp5.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/ConsoleApp5.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/ConsoleApp5.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/ConsoleApp5.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/ConsoleApp5.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/ConsoleApp5.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/ConsoleApp5.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/ConsoleApp5.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/ConsoleApp5.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/ConsoleApp5.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/ConsoleApp5.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/ConsoleApp5.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/ConsoleApp5.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/ConsoleApp5.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/ConsoleApp5.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/ConsoleApp5.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/ConsoleApp5.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/ConsoleApp5.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/ConsoleApp5.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/ConsoleApp5.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/ConsoleApp5.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/ConsoleApp5.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/ConsoleApp5.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/ConsoleApp5.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/ref/ConsoleApp5.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/ref/ConsoleApp5.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/refint/ConsoleApp5.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/Debug/net8.0/refint/ConsoleApp5.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../ConsoleApp5/ConsoleApp5/obj/rider.project.restore.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DaysOfWeek.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ParamsPassing.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2f7DkJq2DduX1yovzc7sowVzFu2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/hanli/Documents/GitHub/AprIL2024/C#/ConsoleApp1/ConsoleApp1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\hanli\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\hanli\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\hanli\\AppData\\Local\\Symbols\\src"
+    ]
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3ebcd23-986e-42cf-9ec5-46219b54a282" name="Changes" comment="" />
+      <created>1713143364009</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713143364009</updated>
+      <workItem from="1713143365098" duration="2896000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
